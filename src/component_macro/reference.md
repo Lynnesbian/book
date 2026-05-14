@@ -126,7 +126,8 @@ Internally, the macro will use a `gtk::Stack`, so you can also use different [tr
 if model.value % 2 == 0 {
     gtk::Label {
         set_label: "The value is even",
-    },
+    }
+} else {
     gtk::Label {
         set_label: "The value is odd",
     }
